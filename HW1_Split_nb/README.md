@@ -99,7 +99,7 @@ The notebook also visualizes model predictions on test images, showing the true 
 ## How to Test the Model with Saved Weights
 
 1. **Load the Saved Weights**:
-   - To load the saved weights of a model, use `model.load_state_dict(torch.load('model_name_epoch.pt'))`, where `model_name_epoch.pt` is the specific saved model weight file.
+   - To load the saved weights of a model, use `model.load_state_dict(torch.load('model_name_epoch.pt'))`, where `model_name_epoch.pt` is the specific saved model weight file that can be found in `HW1_Split_nb/checkpoints`.
    
 2. **Evaluate the Model**:
    - Once the model weights are loaded, set the model to evaluation mode using `model.eval()`.
